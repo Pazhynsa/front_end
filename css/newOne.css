@@ -1,0 +1,96 @@
+#wrapper {
+    max-width:900px;
+    margin: auto;
+    padding: 0 45px 45px 45px;
+    background: none;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+header {
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    list-style-position: inside;
+    font: 14px 'Verdana', sans-serif;
+    padding: 10px;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0;
+}
+
+.top-menu a {
+    color: white;
+}
+
+div .header{
+    background: #525151;
+}
+
+.top-menu li a:hover {
+    background-color: #414141;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 15px 25px;
+}
+
+aside {
+    float: left;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.aside-menu li {
+    border: 1px solid #c8c8c8;
+}
+
+.aside-menu a {
+    color: gray;
+}
+.aside-menu li a:hover {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 8px 120px 8px 5px;
+}
+
+.img {
+    display: inline-block;
+    margin: 40px 0 25px 50px;
+    border: 1px solid black;
+    padding: 20px 65px 25px 30px;
+    font-weight: 500px;
+}
+.text {
+    margin-left: 350px;
+}
+
+.footer li {
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 0;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.div {
+    background: #e1e1e1;
+    margin-top: 60px;
+}
