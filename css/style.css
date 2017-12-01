@@ -1,0 +1,154 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0px 150px 0px 150px;
+    border-left-color: gray 10px ;
+    border-right: 1px gray;
+}
+
+.logo{
+    margin:48px 45px 41px;
+}
+
+.menu {
+    margin-left: 45px;
+    margin-right: 45px;
+    /* background-color: #535353; */
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a{
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    background: #535353;
+    font: 14px Verdana, sans-serif;
+}
+
+/* .menu li {
+    
+} */
+
+li a:hover {
+    background-color: #414141;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+li:last-child {
+    padding-right: 463px;
+}
+
+/* CONTENT */
+
+/* .products tr td {
+    align-content: left;
+    margin: 200px;
+} */
+
+table td {
+    margin-left: 200px;
+    margin-top: 40px;
+    padding: 16px 100px 16px 23px;
+    border: 1px;
+}
+
+.menu2 li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color:  black;
+    background: gray;
+    font: 14px Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Псевдоэлементы
+.box1:first-letter {
+color: red;
+}
+.box2::first-line{
+    color: red;
+    background-color: white;
+}
+.box1,.box2 {
+    background-color: grey;
+    border: 5px;
+    border-color: black;
+    margin: 50px;
+    padding: 20px;
+
+}
+.box1:before{
+    content: 'Yehooo!';
+    font-size: 30px;
+    color: green;
+
+}
+.box2:after {
+    content: 'Borring';
+    color: purple;
+    font-size: 40px;
+}
+.box1::selection {
+    color: red;
+    background-color: black;
+} */
+
+/* 
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a:active {
+    border-bottom: 1px dashed red;
+}
+
+a:visited {
+    color: black;
+}
+
+ul {
+    font-size: 40px;
+    
+}
+
+li:first-child {
+    color: red;
+}
+li:last-child {
+    color: green;
+}
+li:nth-child(3) {
+    color: blue;
+} */
