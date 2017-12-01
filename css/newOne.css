@@ -78,16 +78,22 @@ aside {
 
 .footer li {
     display: inline-block;
-    padding: 15px 15px;
+    padding: 15px 25px;
     margin: 0;
 }
 
 .footer a {
     color: black;
+    font-size: 13px;
 }
 
 .footer li a:hover {
     text-decoration: underline;
+}
+
+.footer li:last-child {
+    padding-left: 260px;
+    font-size: 13px
 }
 
 .div {
